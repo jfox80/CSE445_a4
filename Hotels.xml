@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+    
+    <!-- Hotel 1: Example from the assignment -->
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address Number="11">
+            <Street>E 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 2 -->
+    <Hotel Rating="4.5">
+        <Name>Marriott Phoenix Downtown</Name>
+        <Phone>602-333-0000</Phone>
+        <Address Number="50">
+            <Street>E Adams St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 3: No Rating attribute (optional) -->
+    <Hotel>
+        <Name>Hilton Garden Inn Tempe</Name>
+        <Phone>480-756-4242</Phone>
+        <Phone>800-445-8667</Phone>
+        <Address Number="1530">
+            <Street>S McClintock Dr</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 4 -->
+    <Hotel Rating="4.8">
+        <Name>Arizona Grand Resort</Name>
+        <Phone>602-438-9000</Phone>
+        <Phone>866-267-1321</Phone>
+        <Phone>602-438-9001</Phone>
+        <Address Number="8000">
+            <Street>Arizona Grand Pkwy</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85044</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 5: No Rating attribute -->
+    <Hotel>
+        <Name>Sheraton Phoenix Airport</Name>
+        <Phone>480-967-6600</Phone>
+        <Address Number="1600">
+            <Street>S 52nd St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 6 -->
+    <Hotel Rating="4.0">
+        <Name>Embassy Suites Phoenix Scottsdale</Name>
+        <Phone>480-444-8500</Phone>
+        <Phone>800-362-2779</Phone>
+        <Address Number="5001">
+            <Street>N Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85250</Zip>
+            <NearestAirport>Scottsdale Airport</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 7 -->
+    <Hotel Rating="4.3">
+        <Name>Hyatt Regency Phoenix</Name>
+        <Phone>602-252-1234</Phone>
+        <Address Number="122">
+            <Street>N 2nd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 8: No Rating attribute -->
+    <Hotel>
+        <Name>Best Western Inn of Tempe</Name>
+        <Phone>480-784-2233</Phone>
+        <Phone>800-780-7234</Phone>
+        <Address Number="670">
+            <Street>N Scottsdale Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 9 -->
+    <Hotel Rating="4.6">
+        <Name>Renaissance Phoenix Downtown</Name>
+        <Phone>602-333-0000</Phone>
+        <Phone>888-236-2427</Phone>
+        <Address Number="50">
+            <Street>E Adams St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 10 -->
+    <Hotel Rating="3.9">
+        <Name>Courtyard Phoenix Mesa</Name>
+        <Phone>480-461-3000</Phone>
+        <Address Number="1221">
+            <Street>S Westwood</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85210</Zip>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 11 -->
+    <Hotel Rating="4.4">
+        <Name>Aloft Phoenix Downtown</Name>
+        <Phone>602-258-6400</Phone>
+        <Phone>877-462-5638</Phone>
+        <Address Number="401">
+            <Street>W Clarendon Ave</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85013</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+
+</Hotels>
