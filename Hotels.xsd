@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <!-- Root element: Hotels -->
+    <xs:element name="Hotels">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Multiple Hotel elements allowed -->
+                <xs:element name="Hotel" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Name element (using 'n' as shown in structure) -->
+                            <xs:element name="n" type="xs:string"/>
+                            
+                            <!-- Phone element - at least one required, multiple allowed -->
+                            <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+                            
+                            <!-- Address element -->
+                            <xs:element name="Address">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- Address child elements in order -->
+                                        <xs:element name="Street" type="xs:string"/>
+                                        <xs:element name="City" type="xs:string"/>
+                                        <xs:element name="State" type="xs:string"/>
+                                        <xs:element name="Zip" type="xs:string"/>
+                                        <xs:element name="NearestAirport" type="xs:string"/>
+                                    </xs:sequence>
+                                    <!-- Number attribute is required on Address element -->
+                                    <xs:attribute name="Number" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <!-- Rating attribute is optional on Hotel element -->
+                        <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
