@@ -9,7 +9,7 @@
                 <xs:element name="Hotel" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <!-- Name element -->
+                            <!-- Name element - MUST be first -->
                             <xs:element name="Name" type="xs:string"/>
                             
                             <!-- Phone element - at least one required, multiple allowed -->
