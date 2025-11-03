@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<!-- ERROR 1: Root element should be "Hotels" but changed to "Hotel" -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
     
     <!-- Hotel 1: Example from the assignment -->
-    <Hotel Rating="4.2">
-        <Name>Westin</Name>
+    <Hotel Name="Westin" Rating="4.2">
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
         <Address Number="11" NearestAirport="Sky Harbor">
@@ -15,9 +15,8 @@
         </Address>
     </Hotel>
     
-    <!-- Hotel 2 -->
+    <!-- Hotel 2: ERROR 2 - Missing required Name attribute -->
     <Hotel Rating="4.5">
-        <Name>Marriott Phoenix Downtown</Name>
         <Phone>602-333-0000</Phone>
         <Address Number="50" NearestAirport="Sky Harbor">
             <Street>E Adams St</Street>
@@ -27,11 +26,9 @@
         </Address>
     </Hotel>
     
-    <!-- Hotel 3: No Rating attribute (optional) -->
-    <Hotel>
-        <Name>Hilton Garden Inn Tempe</Name>
-        <Phone>480-756-4242</Phone>
-        <Phone>800-445-8667</Phone>
+    <!-- Hotel 3: ERROR 3 - Missing Phone element -->
+    <Hotel Name="Hilton Garden Inn Tempe">
+        <!-- Phone element is missing here -->
         <Address Number="1530" NearestAirport="Sky Harbor">
             <Street>S McClintock Dr</Street>
             <City>Tempe</City>
@@ -41,8 +38,7 @@
     </Hotel>
     
     <!-- Hotel 4 -->
-    <Hotel Rating="4.8">
-        <Name>Arizona Grand Resort</Name>
+    <Hotel Name="Arizona Grand Resort" Rating="4.8">
         <Phone>602-438-9000</Phone>
         <Phone>866-267-1321</Phone>
         <Phone>602-438-9001</Phone>
@@ -54,21 +50,19 @@
         </Address>
     </Hotel>
     
-    <!-- Hotel 5: No Rating attribute -->
-    <Hotel>
-        <Name>Sheraton Phoenix Airport</Name>
+    <!-- Hotel 5: ERROR 4 - Address element has no closing tag -->
+    <Hotel Name="Sheraton Phoenix Airport">
         <Phone>480-967-6600</Phone>
         <Address Number="1600" NearestAirport="Sky Harbor">
             <Street>S 52nd St</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
-        </Address>
+        <!-- Missing </Address> closing tag -->
     </Hotel>
     
-    <!-- Hotel 6 -->
-    <Hotel Rating="4.0">
-        <Name>Embassy Suites Phoenix Scottsdale</Name>
+    <!-- Hotel 6: ERROR 5 - Two Name attributes (can't have two of same attribute, so adding duplicate hotel element instead) -->
+    <Hotel Name="Embassy Suites Phoenix Scottsdale" Rating="4.0">
         <Phone>480-444-8500</Phone>
         <Phone>800-362-2779</Phone>
         <Address Number="5001" NearestAirport="Scottsdale Airport">
@@ -78,10 +72,18 @@
             <Zip>85250</Zip>
         </Address>
     </Hotel>
+    <Hotel Name="Embassy Suites Duplicate" Rating="4.0">
+        <Phone>480-444-8500</Phone>
+        <Address Number="5001" NearestAirport="Scottsdale Airport">
+            <Street>N Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85250</Zip>
+        </Address>
+    </Hotel>
     
     <!-- Hotel 7 -->
-    <Hotel Rating="4.3">
-        <Name>Hyatt Regency Phoenix</Name>
+    <Hotel Name="Hyatt Regency Phoenix" Rating="4.3">
         <Phone>602-252-1234</Phone>
         <Address Number="122" NearestAirport="Sky Harbor">
             <Street>N 2nd St</Street>
@@ -91,9 +93,8 @@
         </Address>
     </Hotel>
     
-    <!-- Hotel 8: No Rating attribute -->
-    <Hotel>
-        <Name>Best Western Inn of Tempe</Name>
+    <!-- Hotel 8 -->
+    <Hotel Name="Best Western Inn of Tempe">
         <Phone>480-784-2233</Phone>
         <Phone>800-780-7234</Phone>
         <Address Number="670" NearestAirport="Sky Harbor">
@@ -105,8 +106,7 @@
     </Hotel>
     
     <!-- Hotel 9 -->
-    <Hotel Rating="4.6">
-        <Name>Renaissance Phoenix Downtown</Name>
+    <Hotel Name="Renaissance Phoenix Downtown" Rating="4.6">
         <Phone>602-333-0000</Phone>
         <Phone>888-236-2427</Phone>
         <Address Number="50" NearestAirport="Sky Harbor">
@@ -118,8 +118,7 @@
     </Hotel>
     
     <!-- Hotel 10 -->
-    <Hotel Rating="3.9">
-        <Name>Courtyard Phoenix Mesa</Name>
+    <Hotel Name="Courtyard Phoenix Mesa" Rating="3.9">
         <Phone>480-461-3000</Phone>
         <Address Number="1221" NearestAirport="Phoenix-Mesa Gateway">
             <Street>S Westwood</Street>
@@ -128,18 +127,5 @@
             <Zip>85210</Zip>
         </Address>
     </Hotel>
-    
-    <!-- Hotel 11 -->
-    <Hotel Rating="4.4">
-        <Name>Aloft Phoenix Downtown</Name>
-        <Phone>602-258-6400</Phone>
-        <Phone>877-462-5638</Phone>
-        <Address Number="401" NearestAirport="Sky Harbor">
-            <Street>W Clarendon Ave</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85013</Zip>
-        </Address>
-    </Hotel>
 
-</Hotels>
+</Hotel>
