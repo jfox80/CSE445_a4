@@ -8,12 +8,11 @@
         <n>Westin</n>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
-        <Address Number="11">
+        <Address Number="11" NearestAirport="Sky Harbor">
             <Street>E 7th St</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
         </Address>
     </Hotel>
     
@@ -21,12 +20,11 @@
     <Hotel Rating="4.5">
         <n>Marriott Phoenix Downtown</n>
         <Phone>602-333-0000</Phone>
-        <Address>
+        <Address NearestAirport="Sky Harbor">
             <Street>E Adams St</Street>
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85004</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
         </Address>
     </Hotel>
     
@@ -34,12 +32,11 @@
     <Hotel>
         <n>Hilton Garden Inn Tempe</n>
         <!-- Phone element is missing here -->
-        <Address Number="1530">
+        <Address Number="1530" NearestAirport="Sky Harbor">
             <Street>S McClintock Dr</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
         </Address>
     </Hotel>
     
@@ -49,12 +46,11 @@
         <Phone>602-438-9000</Phone>
         <Phone>866-267-1321</Phone>
         <Phone>602-438-9001</Phone>
-        <Address Number="8000">
+        <Address Number="8000" NearestAirport="Sky Harbor">
             <Street>Arizona Grand Pkwy</Street>
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85044</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
         </Address>
     </Hotel>
     
@@ -62,12 +58,11 @@
     <Hotel>
         <n>Sheraton Phoenix Airport</n>
         <Phone>480-967-6600</Phone>
-        <Address Number="1600">
+        <Address Number="1600" NearestAirport="Sky Harbor">
             <Street>S 52nd St</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
         <!-- Missing </Address> closing tag -->
     </Hotel>
     
@@ -77,12 +72,11 @@
         <n>Embassy Suites Duplicate Name</n>
         <Phone>480-444-8500</Phone>
         <Phone>800-362-2779</Phone>
-        <Address Number="5001">
+        <Address Number="5001" NearestAirport="Scottsdale Airport">
             <Street>N Scottsdale Rd</Street>
             <City>Scottsdale</City>
             <State>AZ</State>
             <Zip>85250</Zip>
-            <NearestAirport>Scottsdale Airport</NearestAirport>
         </Address>
     </Hotel>
     
@@ -90,12 +84,11 @@
     <Hotel Rating="4.3">
         <n>Hyatt Regency Phoenix</n>
         <Phone>602-252-1234</Phone>
-        <Address Number="122">
+        <Address Number="122" NearestAirport="Sky Harbor">
             <Street>N 2nd St</Street>
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85004</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
         </Address>
     </Hotel>
     
@@ -104,12 +97,11 @@
         <n>Best Western Inn of Tempe</n>
         <Phone>480-784-2233</Phone>
         <Phone>800-780-7234</Phone>
-        <Address Number="670">
+        <Address Number="670" NearestAirport="Sky Harbor">
             <Street>N Scottsdale Rd</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
         </Address>
     </Hotel>
     
@@ -118,12 +110,11 @@
         <n>Renaissance Phoenix Downtown</n>
         <Phone>602-333-0000</Phone>
         <Phone>888-236-2427</Phone>
-        <Address Number="50">
+        <Address Number="50" NearestAirport="Sky Harbor">
             <Street>E Adams St</Street>
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85004</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
         </Address>
     </Hotel>
     
@@ -131,12 +122,11 @@
     <Hotel Rating="3.9">
         <n>Courtyard Phoenix Mesa</n>
         <Phone>480-461-3000</Phone>
-        <Address Number="1221">
+        <Address Number="1221" NearestAirport="Phoenix-Mesa Gateway">
             <Street>S Westwood</Street>
             <City>Mesa</City>
             <State>AZ</State>
             <Zip>85210</Zip>
-            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
         </Address>
     </Hotel>
     
@@ -145,12 +135,11 @@
         <n>Aloft Phoenix Downtown</n>
         <Phone>602-258-6400</Phone>
         <Phone>877-462-5638</Phone>
-        <Address Number="401">
+        <Address Number="401" NearestAirport="Sky Harbor">
             <Street>W Clarendon Ave</Street>
             <City>Phoenix</City>
             <State>AZ</State>
             <Zip>85013</Zip>
-            <NearestAirport>Sky Harbor</NearestAirport>
         </Address>
     </Hotel>
 
